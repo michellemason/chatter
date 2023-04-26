@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobs Site</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="nav" alt="Navigation header image"><img src="/images/Header.png"></div>
+    <div class="container">
+        <div class="img" alt="Graphic of man climbing a mountain"><img src="/images/mountain.png"></div>
+        <div class="title">BE IN CONTROL OF YOUR FUTURE.</div>
+    </div>
+    <div class="vacancies">
+        <div class="first">
+            <h1>RECENT VACANCIES</h1>
+            <p class="vac-p">Filtered by those closest to your location</p>
+            <button class="view-all-btn">View all</button>
+        </div>
+        <% for(let i=0; i <= 4; i++ ) { %>
+        <div class="job-container">
+            <p class="job-cat"><%=jobs[i].job_category%></p>
+            <p class="job-title"><%=jobs[i].job_title%></p>
+            <p class="job-loc"><%=jobs[i].location_city%></p>            
+            <a href=<%=jobs[i].job_url%><button class="job-url-btn">View details</button></a>
+        </div>
+        <% } %>
+    </div>
+  </body>
+</html>

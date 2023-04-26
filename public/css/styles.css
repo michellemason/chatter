@@ -1,0 +1,195 @@
+body {
+    /* Layout Properties */
+    width: 100%;
+    height: 100%;
+    margin-top: 46px;
+    margin-left: 64px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.nav {
+    /* Layout Properties */
+    display: block;
+    position: absolute;
+    top: 46px;
+    left: 561px;
+    width: 668px;
+    height: 16px;
+    /* UI Properties */
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.img {
+    /* Layout Properties */
+    position: absolute;
+    display: inline-block;
+    top: 114px;
+    left: 73px;
+    width: 553px;
+    height: 578px;
+    /* UI Properties */
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.title {
+    /* Layout Properties */
+    position: absolute;
+    display: inline-block;
+    top: 161px;
+    left: 697px;
+    width: 650px;
+    height: 429px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 100px/95px Helvetica;
+    letter-spacing: 0px;
+    color: #00B8AA;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.vacancies {
+    /* Layout Properties */
+    position: absolute;
+    top: 799px;
+    left: 64px;
+    height: 281px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+h1 {
+    /* Layout Properties */
+    top: 806px;
+    left: 64px;
+    width: 201px;
+    height: 50px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 25px/25px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.vac-p {
+    /* Layout Properties */
+    top: 870px;
+    left: 64px;
+    width: 170px;
+    height: 60px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.first {
+    display: inline-block;
+}
+
+.view-all-btn {
+    /* Layout Properties */
+    top: 947px;
+    left: 64px;
+    width: 176px;
+    height: 54px;
+    /* UI Properties */
+    background: #F55F41 0% 0% no-repeat padding-box;
+    box-shadow: 5px 5px 15px #0000001C;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 16px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+}
+
+.job-container {
+    /* Layout Properties */
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 257px;
+    margin-left: 7px;
+    margin-top: 7px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 3px #00000029;
+    border: 1px solid #000000;
+    opacity: 1;
+}
+
+.job-cat {
+    /* Layout Properties */
+    position: relative;
+    top: 17px;
+    left: 21px;
+    width: 154px;
+    height: 44px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 12px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.job-title {
+    /* Layout Properties */
+    position: relative;
+    left: 21px;
+    width: 197px;
+    height: 82px;
+    margin: 0%;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 17px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: lowercase;
+    opacity: 1;
+}
+
+.job-loc {
+    /* Layout Properties */
+    position: relative;
+    width: 154px;
+    height: 37px;
+    left: 21px;
+    margin: 0%;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 12px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+a {
+    /* Layout Properties */
+    position: relative;
+    display:inline-block;
+    width: 150px;
+    height: 54px;
+    left: 21px;
+    /* UI Properties */
+    background: #EFEFEF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    text-decoration: none;
+    font: normal normal normal 16px/30px Helvetica;
+    letter-spacing: 0.32px;
+    color: #000000;
+    line-height: 3.4;
+}
