@@ -30,4 +30,4 @@ app.get('/', async (req, res) => {
       }
 });
 
-app.listen(3000); // server running on localhost:3000
+app.listen(80); // server running on localhost:80
